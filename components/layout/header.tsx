@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { Menu, X, Wheat, Home, Newspaper, BookOpen, ImageIcon, Video, Calendar, Phone } from "lucide-react"
+import { Menu, X, Wheat, Home, Newspaper, BookOpen, ImageIcon, Video, Calendar, Phone, ShoppingBag } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { useLanguage } from "@/lib/i18n/language-context"
@@ -15,6 +15,7 @@ export function Header() {
     { href: "/", label: t.nav.home, icon: Home },
     { href: "/news", label: t.nav.news, icon: Newspaper },
     { href: "/articles", label: t.nav.articles, icon: BookOpen },
+    { href: "/catalog", label: t.nav.catalog, icon: ShoppingBag },
     { href: "/gallery", label: t.nav.gallery, icon: ImageIcon },
     { href: "/videos", label: t.nav.videos, icon: Video },
     { href: "/events", label: t.nav.events, icon: Calendar },
