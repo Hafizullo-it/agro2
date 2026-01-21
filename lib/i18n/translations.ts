@@ -10,6 +10,7 @@ export const translations = {
   en: {
     // Navigation
     nav: {
+      siteName: "Кишоварзи Суғд",
       home: "Home",
       news: "News",
       articles: "Tips & Articles",
@@ -217,6 +218,7 @@ export const translations = {
   ru: {
     // Navigation
     nav: {
+      siteName: "Кишоварзи Суғд",
       home: "Главная",
       news: "Новости",
       articles: "Советы и статьи",
@@ -425,6 +427,7 @@ export const translations = {
   tj: {
     // Navigation
     nav: {
+      siteName: "Кишоварзи Суғд",
       home: "Асосӣ",
       news: "Хабарҳо",
       articles: "Маслиҳатҳо",
