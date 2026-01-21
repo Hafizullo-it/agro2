@@ -32,7 +32,7 @@ export function Footer() {
               <div className="w-10 h-10 rounded-full bg-primary-foreground flex items-center justify-center">
                 <Wheat className="w-6 h-6 text-primary" />
               </div>
-              <span className="text-xl font-bold tracking-tight">KISHOVARZ</span>
+              <span className="text-xl font-bold tracking-tight">Кишоварзи Суғд</span>
             </Link>
             <p className="text-primary-foreground/80 leading-relaxed">{t.footer.description}</p>
             <div className="flex gap-3">

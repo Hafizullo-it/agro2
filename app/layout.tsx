@@ -11,7 +11,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "KISHOVARZ - Портали иттилооти кишоварзӣ",
+  title: "Кишоварзи Суғд - Портали иттилооти кишоварзӣ",
   description: "Манбаи боэътимоди шумо барои маслиҳатҳои кишоварзӣ, хабарҳо ва захираҳо",
   generator: "v0.app",
   icons: {
